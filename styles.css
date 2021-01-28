@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Sniglet&display=swap");
+body {
+  background-color: rgb(230, 225, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#weather-card-holder {
+  width: 350px;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp {
+  color: #02005c;
+  font-family: "Sniglet", cursive;
+}
+
+.des {
+  color: #02005c;
+  font-family: "Sniglet", cursive;
+}
+
+.card:first-child{
+    opacity:1;
+}
+.card {
+  position: absolute;
+  width: 325px;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+  opacity: 0;
+}
+
+.card img {
+  height: 160px;
+  width: 160px;
+}
+
+#city-input{
+    width:150px;
+    border-radius:5px;
+    height:30px;
+    font-size:28px;
+    border:2px solid #02005c;
+    font-family:  "Sniglet", cursive;
+    color:#02005c
+}
+
+button{
+    height:40px;
+    width:100px;
+    margin-top:25px;
+    border: 3px solid #02005c;
+    border-radius:10px;
+    font-family:  "Sniglet", cursive;
+    color:#02005c;
+}
